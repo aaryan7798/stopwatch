@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 20px solid black; /* Add this line for the black border */
+}
+
+#display {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startPause {
+    background-color: #28a745;
+    color: white;
+}
+
+#reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+#lap {
+    background-color: #007bff;
+    color: white;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#laps div {
+    margin: 5px 0;
+    padding: 5px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
